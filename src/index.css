@@ -8,15 +8,14 @@ body {
 }
 .name {
     flex-basis: 100%;
-    margin: 0;
-    /* border: red dotted; */
+    border: red dotted;
     font-size: 25px;
     /* font-weight: bold; */
 }
 .nav {
     padding: 0;
     margin: 0;
-    /* border: red dotted; */
+    border: red dotted;
     grid-row: 1;
     list-style: none;
     display: flex;
@@ -42,7 +41,7 @@ a:hover, a:active {
     color:  black;
     font-weight: bold;
 }
-span {
+.intro {
     /* border: red dotted; */
     padding: 100px 100px;
     display: flex;
@@ -50,10 +49,32 @@ span {
     text-align: center;
     font-size: 29px;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 1px; 
+}
+.img-responsive {
+    width: 75%;
+    max-width: 25%;
+    max-height: auto;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1em auto;
+    display: inline-flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    
     
 }
-
+/* .card img {
+    height: ;
+} */
 /* ul.nav li {
     display: inline;
     list-style-type: none;
